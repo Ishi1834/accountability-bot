@@ -16,7 +16,9 @@ Clone this repository:
 
 Navigate to the project folder:
 
-- [ ] Todo: document this
+- Start supabase containers using `supabase start`
+- Stop the containers using `supabase stop`
+- Serve a function using `supabase functions serve <function name>`
 
 ## Usage
 - [ ] Todo: document how to chat to bot
