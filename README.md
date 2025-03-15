@@ -19,6 +19,7 @@ Navigate to the project folder:
 - Start supabase containers using `supabase start`
 - Stop the containers using `supabase stop`
 - Serve a function using `supabase functions serve <function name>`
+- To run locally use `supabase functions serve telegram-bot --no-verify-jwt --env-file ./supabase/functions/telegram-bot/.env.local`
 
 ## Usage
 - [ ] Todo: document how to chat to bot
