@@ -19,6 +19,9 @@ bot.on(
     ),
 );
 
+// Send a message to myself when the bot starts
+bot.api.sendMessage("786953375", "Hello to Ismail from Supabase Functions!");
+
 const handleUpdate = webhookCallback(bot, "std/http");
 
 Deno.serve(async (req) => {
